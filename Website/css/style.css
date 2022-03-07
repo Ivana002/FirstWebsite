@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(232, 236, 234);
+}
+
+ul.seasons {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 700px;
+}
+
+ul.seasons li {
+    background-color:rgb(238, 231, 141);
+    margin: 50px;
+    list-style-type: none;
+}
+
+ul.seasons a {
+    display: block; width: 100%; height: 100%;
+    color: rgb(0, 0, 0); 
+    line-height: 75px;
+    padding: 0px 12px;
+}
