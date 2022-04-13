@@ -1,3 +1,8 @@
-function togglepopup(){
-    document.getElementById("popup-1").classList.toggle("active");
-}
+
+        document.getElementById('buttonIcon').addEventListener("click", function(){
+    document.getElementById("popUpDiv").style.display = "block";
+});
+
+document.getElementById('closeButton').addEventListener("click", function(){
+    document.getElementById("popUpDiv").style.display = "none";
+});
